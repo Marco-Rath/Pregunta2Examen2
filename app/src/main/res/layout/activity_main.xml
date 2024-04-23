@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="15dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GRAFICO CIRCUNFERENCIA"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+       android:textColor="#2a3"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Angulo (α)"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/cajaAngulo"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:hint="Ingrese el angulo"
+        android:gravity="center"
+        android:background="#c7c7c7"
+        android:layout_gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Radio (R)"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/cajaRadio"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:hint="Ingrese el radio"
+        android:gravity="center"
+        android:background="#c7c7c7"
+        android:layout_gravity="center"
+
+        />
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="35dp"
+        android:text="Calcular"
+        android:backgroundTint="#3a2a"
+        android:textSize="20dp"
+        android:onClick="evento"
+        />
+    <ImageView
+        android:id="@+id/imageradio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+</LinearLayout>
