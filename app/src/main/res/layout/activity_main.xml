@@ -36,6 +36,7 @@
         android:gravity="center"
         android:background="#c7c7c7"
         android:layout_gravity="center"
+        android:inputType="number"
 
         />
     <TextView
@@ -56,7 +57,7 @@
         android:gravity="center"
         android:background="#c7c7c7"
         android:layout_gravity="center"
-
+        android:inputType="number"
         />
     <Button
         android:id="@+id/btnCalcular"
